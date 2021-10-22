@@ -19,17 +19,129 @@ html {
     float: left;
 }
 
+/* nav */
 nav {
     width: 100%;
-    height: 60px;
-    background: cyan;
-    line-height: 60px;
-    text-align: center;
+    background: white;
+    line-height: 80px;
+    position: fixed;
 }
 
 .logo-dropbox {
-    background: lemonchiffon;
-   max-width: 100%;
-   vertical-align: middle;
-   padding: 0 2em;
+    width: 12%;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 1em;
 }
+
+.nav-left {
+    width: 53%;
+}
+
+.undrlist {
+    list-style: none;
+    display: inline-block;
+}
+
+.underlist li {
+    display: inline-block;
+    padding: 0 0.5em;
+}
+
+.underlist li:hover {
+    border-bottom: 2px solid black;
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: black;    
+}
+
+.nav-right {
+    width: 28%;
+    text-align: center;
+}
+
+
+.btn {
+    width: 7%;
+    text-align: center;
+}
+
+.button a{
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    padding: 4px 10px;
+    background: #0061ff;
+}
+
+.button a:hover {
+    background: #0061ff59;
+}
+/* nav */
+
+/* jambotron */
+
+.jambotron {
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.jambo-bg {
+    width: 100%;
+    height: 90vh;
+    background: #b4d0e7
+}
+
+.jambo-container{
+    width: 85%;
+    
+    margin: 0 auto;
+}
+
+.jambo-text {
+    padding-top: 10%;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2.5em;
+    text-align: left;
+}
+
+.jambo {
+    width: 100%;
+    
+}
+
+.jambo-description {
+    margin-top: 3%;
+    margin-right: 3%;
+    width: 40%;
+    
+}
+
+.jambo-description p{
+    font-size: 1.2em;
+}
+
+.button-jambo {
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+.arrow {
+    color: black;
+    font-size: 2em;
+    padding-top: 1.5em;
+}
+
+.jambo-img {
+    width: 57%;
+    height: 390px;
+    margin-top: 3%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../img/jumbo.png'); 
+}
+
