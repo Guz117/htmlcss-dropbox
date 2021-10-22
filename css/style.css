@@ -131,17 +131,25 @@ nav {
 }
 
 .arrow {
+    margin-top: 1em;
+}
+
+.arrow a{
     color: black;
     font-size: 2em;
-    padding-top: 1.5em;
 }
 
 .jambo-img {
     width: 57%;
-    height: 390px;
+    /* height: 390px; */
     margin-top: 3%;
-    background-size: contain;
+    /* background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../img/jumbo.png'); 
+    background-image: url('../img/jumbo.png'); */
+    
+} 
+
+.jambo-img a{
+    object-fit: contain;
 }
 
