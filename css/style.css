@@ -155,7 +155,7 @@ nav {
 }
 /* /jambotron */
 
-/* business */
+/* piano business */
 
 .margin-auto {
     margin: 0 auto;
@@ -163,7 +163,7 @@ nav {
 
 .business-title {
     margin-top: 6em;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .checks {
@@ -293,10 +293,10 @@ nav {
 .list-check i {
     color: #327fff;
 }
-/* /business */
+/* /paino business */
 
 
-/* team */
+/* ufficio vendite */
 
 .team {
     margin-top: 2em;
@@ -329,4 +329,89 @@ nav {
 .sales-office a {
     padding: 4px 60px;
 }
+/* /ufficio vendite */
 
+/* partner dropbox */
+
+.partner {
+    margin-top: 10em;
+}
+
+.img-mans {
+    width: 50%;
+}
+
+.img-mans img {
+    width: 100%;
+}
+
+.partner-dropbox {
+    width: 50%;
+    padding: 3em;
+}
+
+.title-professional-two {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.partner-dropbox p {
+    margin-bottom: 2em;
+}
+
+.button-white {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 8px 16px;
+}
+/* /partner dropbox */
+
+/* operazioni dropbox */
+
+.operation-dropbox {
+    margin-top: 7em;
+}
+
+.less-time {
+    margin-top: 2em;
+    width: 100%;
+}
+
+.column-operation {
+    height: 600px;
+    width: calc(100% / 3 - 30px / 3);
+    margin-right: 15px;
+}
+
+.less-time-left-img img {
+    width: 100%;
+}
+
+.underlined {
+    border-bottom: 1px solid black;
+}
+
+.less-time-right {
+    margin-right: 0;
+}
+
+/* /operazioni dropbox */
+
+/* five hundred thousand */
+
+.five-hundred-thousand-team {
+    margin-bottom: 1em;
+}
+
+
+.logos {
+    margin-top: 2em;
+    width: 100%;
+    height: 600px;
+    background: cadetblue;
+}
+
+.logos-left {
+    width: ;
+}
