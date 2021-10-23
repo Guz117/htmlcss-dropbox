@@ -157,7 +157,7 @@ nav {
 
 /* business */
 
-.business {
+.margin-auto {
     margin: 0 auto;
 }
 
@@ -293,6 +293,40 @@ nav {
 .list-check i {
     color: #327fff;
 }
+/* /business */
 
 
+/* team */
+
+.team {
+    margin-top: 2em;
+}
+
+.team-building {
+    text-align: center;
+    padding: 1em 0;
+    border: 1px solid #e6e6e7;
+}
+
+.enterprise {
+    width: 100%;
+    border: 1px solid #e6e6e7;
+}
+
+.enterprise-left {
+    width: 70%;
+}
+
+.enterprise-left h4{
+    margin-bottom: 2em;
+}
+
+.sales-office {
+    width: 30%;
+    padding-top: 2em;
+}
+
+.sales-office a {
+    padding: 4px 60px;
+}
 
