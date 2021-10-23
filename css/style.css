@@ -196,8 +196,9 @@ nav {
     padding: 0 0;
     border: 1px solid #e6e6e7;
     text-align: center;
-    width: calc(100% / 3 - 48px / 3);
-    margin-right: 24px;
+    height: 900px;
+    width: calc(100% / 3 - 30px / 3);
+    margin-right: 15px;
     margin-bottom: 1em;
 }
 
@@ -238,6 +239,59 @@ nav {
 
 .function {
     margin-left: 1.5em;
+}
+
+.user p{
+    margin-left: 0.1em;
+}
+
+.icon {
+    margin-bottom: 1em;
+}
+
+.try-for-free  {
+    text-align: left;
+    margin-top: 2em;
+}
+
+.try-for-free a{
+    padding: 4px 60px;
+}
+
+.buy-now{
+    font-size: 0.8em;
+    margin-top: 2em;
+}
+
+.buy-now a {
+    color: #327fff;
+}
+
+.line {
+    margin-top: 2em;
+    width: 15%;
+    height: 1px;
+    border-bottom: 1px solid #6c7b8866;
+}
+
+.plane {
+    margin-top: 2em;
+}
+
+.list-check {
+    margin-top: 2em;
+}
+
+.list-check ul{
+    list-style-type: none;
+}
+
+.list-check li {
+    margin-bottom: 1em;
+}
+
+.list-check i {
+    color: #327fff;
 }
 
 
