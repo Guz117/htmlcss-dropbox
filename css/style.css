@@ -449,17 +449,45 @@ nav {
     position: relative;
 }
 
-.logo-bottom-left-left {
+.logo-bottom-right-left {
     width: 50%;
     height: 50%;
     background: #0093ce;
     position: relative;
 }
 
-.logo-bottom-left-right {
+.logo-bottom-right-right {
     width: 50%;
     height: 50%;
     background: #ff1c1c;
+    position: relative;
+}
+
+.logo-top-right-left {
+    width: 50%;
+    height: 50%;
+    background: #d5001f;
+    position: relative;
+}
+
+.logo-top-right-right {
+    width: 50%;
+    height: 50%;
+    background: #b4d0e7;
+    position: relative;
+}
+
+.logo-bottom-left-left {
+    width: 50%;
+    height: 50%;
+    background: #0d2481;
+    position: relative;
+}
+
+.logo-bottom-left-right{
+    width: 50%;
+    height: 50%;
+    background: #ffd830;
     position: relative;
 }
 
