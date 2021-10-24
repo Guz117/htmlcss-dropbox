@@ -404,14 +404,76 @@ nav {
     margin-bottom: 1em;
 }
 
+.five-hundred-thousand a {
+    color: #3c86ff;
+}
+
 
 .logos {
     margin-top: 2em;
     width: 100%;
-    height: 600px;
+    height: 500px;
     background: cadetblue;
 }
 
 .logos-left {
-    width: ;
+    width: 30%;
+    height: 100%;
+    background: #b4d0e7;
 }
+
+.logos-center {
+    width: 40%;
+    height: 100%;
+    background: greenyellow;
+}
+
+.logos-right {
+    width: 30%;
+    height: 100%;
+    background: hotpink;
+}
+
+.logo-top-left-left {
+    width: 50%;
+    height: 50%;
+    background: #a2d39b;
+    border: 10px solid #d0e9cd;
+    position: relative;
+}
+
+.logo-top-left-right {
+    width: 50%;
+    height: 50%;
+    background: #61082b;
+    position: relative;
+}
+
+.logo-bottom-left-left {
+    width: 50%;
+    height: 50%;
+    background: #0093ce;
+    position: relative;
+}
+
+.logo-bottom-left-right {
+    width: 50%;
+    height: 50%;
+    background: #ff1c1c;
+    position: relative;
+}
+
+.logo-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.logo-center .svg svg {
+    fill: white;
+    width: 100%;
+}
+
