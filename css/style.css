@@ -53,6 +53,24 @@ nav {
     display: inline-block;
 }
 
+.menu-list {
+    position: relative;
+}
+
+.dropdown-content {
+    width: 100%;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 99999;
+}
+
+.menu-list:hover .dropdown-content {
+    display: block;
+}
+
+
+
 .underlist li {
     display: inline-block;
     padding: 0 0.5em;
@@ -116,16 +134,14 @@ nav {
 }
 
 .jambo {
-    width: 100%;
-    
+    width: 100%;   
 }
 
 .jambo-description {
-    padding-top: 5em;
+    padding-top: 3em;
     margin-top: 3%;
     margin-right: 3%;
-    width: 40%;
-    
+    width: 40%;  
 }
 
 .jambo-description p{
@@ -150,7 +166,6 @@ nav {
     position: relative;
     bottom: -90px;
     width: 57%;
-    margin-top: 3%;
 } 
 
 .jambo-img img{
@@ -199,7 +214,7 @@ nav {
     padding: 0 0;
     border: 1px solid #e6e6e7;
     text-align: center;
-    height: 900px;
+    min-height: 900px;
     width: calc(100% / 3 - 30px / 3);
     margin-right: 15px;
     margin-bottom: 1em;
@@ -368,6 +383,10 @@ nav {
     border: 2px solid black;
     padding: 8px 16px;
 }
+
+.partner-dropbox:hover a {
+    color: #0061ff;
+}
 /* /partner dropbox */
 
 /* operazioni dropbox */
@@ -415,8 +434,6 @@ nav {
     color: #3c86ff;
 }
 
-
-
 .logos {
     width: 100%;
 }
@@ -435,69 +452,49 @@ nav {
 }
 
 
-
-
 .logos-right {
     width: 30%;
     height: 500px;
     
 }
 
-.logo-top-left-left {
+.logo-color {
     width: 50%;
     height: 50%;
+    position: relative;
+}
+
+.logo-top-left-left {
     background: #a2d39b;
     border: 10px solid #d0e9cd;
-    position: relative;
 }
 
 .logo-top-left-right {
-    width: 50%;
-    height: 50%;
     background: #61082b;
-    position: relative;
 }
 
 .logo-bottom-right-left {
-    width: 50%;
-    height: 50%;
     background: #0093ce;
-    position: relative;
 }
 
 .logo-bottom-right-right {
-    width: 50%;
-    height: 50%;
     background: #ff1c1c;
-    position: relative;
 }
 
 .logo-top-right-left {
-    width: 50%;
-    height: 50%;
     background: #d5001f;
-    position: relative;
 }
 
 .logo-top-right-right {
-    width: 50%;
-    height: 50%;
     background: #b4d0e7;
-    position: relative;
 }
 
 .logo-bottom-left-left {
-    width: 50%;
-    height: 50%;
     background: #0d2481;
-    position: relative;
 }
 
 .logo-bottom-left-right{
-    width: 50%;
-    height: 50%;
     background: #ffd830;
-    position: relative;
 }
 
 .logo-center {
@@ -561,6 +558,10 @@ nav {
     background: white;
     padding: 8px 50px
 }
+
+.free-trial:hover a {
+    color: #0061ff;
+}
 /* dropbox nella tua azienda */
 
 
@@ -610,6 +611,21 @@ nav {
 .all-faq:hover p{
     display: inline-block;
 }
+
+
+.arrow-triangle .fa-chevron-up {
+    display: none;
+}
+
+.all-faq:hover .fa-chevron-up {
+    display: block;
+} 
+
+.all-faq:hover .fa-chevron-down {
+    display: none;
+}
+
+
 /* /faq */
 
 /* footer */
@@ -660,3 +676,4 @@ footer {
     margin-bottom: 2em;
     display: inline-block;
 }
+/* /footer */
