@@ -39,9 +39,12 @@ nav {
 
 .logo-dropbox {
     width: 12%;
-    vertical-align: middle;
     text-align: center;
     padding: 0 1em;
+}
+
+.logo-dropbox img {
+    vertical-align: middle;
 }
 
 .nav-left {
@@ -58,26 +61,35 @@ nav {
 }
 
 .dropdown-content {
-    width: 100%;
+    min-width: 250px;
     display: none;
     position: absolute;
+    bottom: -75%;
     background-color: #f9f9f9;
-    z-index: 99999;
 }
 
 .menu-list:hover .dropdown-content {
     display: block;
 }
 
-
-
 .underlist li {
     display: inline-block;
     padding: 0 0.5em;
 }
 
-.underlist li:hover {
-    border-bottom: 2px solid black;
+.underlist .menu-list:hover {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.dropdown-content li {
+    font-size: 0.9em;
+    text-align: left;
+    display: block;
+    line-height: 2em;
+}
+
+.dropdown-content li:hover {
+    background: lightgrey;
 }
 
 .menu-list a{
@@ -199,10 +211,12 @@ nav {
 .blue i {
     color: #0061ff;
     font-size: bold;
+    cursor: pointer;
 }
 
 .white i {
     color: #e6e6e7;
+    cursor: pointer;
 }
 
 .option {
@@ -657,10 +671,15 @@ footer {
     margin-right: 0;
 }
 
-.info-dropbox ul li {
+.info-dropbox ul li a{
     font-size: 0.9em;
     color: white;
     line-height: 0.5em;
+    text-decoration: none;
+}
+
+.info-dropbox ul li:hover {
+    text-decoration: underline;
 }
 
 .italian {
