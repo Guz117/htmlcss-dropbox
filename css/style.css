@@ -192,7 +192,7 @@ nav {
 }
 
 .business-title {
-    margin-top: 6em;
+    margin-top: 5em;
     font-size: 1.8em;
 }
 
@@ -472,15 +472,8 @@ nav {
     
 }
 
-.logo-color {
-    width: 50%;
-    height: 50%;
-    position: relative;
-}
-
 .logo-top-left-left {
     background: #a2d39b;
-    border: 10px solid #d0e9cd;
 }
 
 .logo-top-left-right {
@@ -511,13 +504,23 @@ nav {
     background: #ffd830;
 }
 
+.logo-color {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    border: none;
+}
+
+.logo-color:hover {
+    border: 10px solid #e7e7e777;
+}
+
 .logo-center {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);   
 }
-
 
 .logo-center .svg svg {
     fill: white;
