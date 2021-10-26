@@ -196,7 +196,66 @@ nav {
     font-size: 1.8em;
 }
 
-.checks {
+.invoice {
+    line-height: 3em;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.invoice input[type="radio"] {
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border: 2px solid #999;
+    border-radius: 50%;
+    vertical-align: sub;
+}
+
+.invoice input[type="radio"]:checked {
+    opacity: 0;
+}
+
+.invoice label {
+    margin-right: 1em;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.invoice input:checked + label::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+    content: '';
+    width: 20px;
+    height: 20px;
+    margin-left: -30px;
+    display: inline-block;
+    border: 4px solid #0061ff;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .checks {
     margin-top: 3em;
 }
 
@@ -217,7 +276,7 @@ nav {
 .white i {
     color: #e6e6e7;
     cursor: pointer;
-}
+} */
 
 .option {
     width: 100%;
