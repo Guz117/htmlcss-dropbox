@@ -51,7 +51,7 @@ nav {
     width: 53%;
 }
 
-.undrlist {
+.underlist {
     list-style: none;
     display: inline-block;
 }
@@ -138,9 +138,9 @@ nav {
 }
 
 .jambo-text {
-    padding-top: 10%;
     width: 100%;
     margin: 0 auto;
+    padding-top: 10%;
     font-size: 2.5em;
     text-align: left;
 }
@@ -150,10 +150,10 @@ nav {
 }
 
 .jambo-description {
-    padding-top: 3em;
+    width: 40%;  
     margin-top: 3%;
     margin-right: 3%;
-    width: 40%;  
+    padding-top: 3em;
 }
 
 .jambo-description p{
@@ -175,9 +175,9 @@ nav {
 }
 
 .jambo-img {
+    width: 57%;
     position: relative;
     bottom: -90px;
-    width: 57%;
 } 
 
 .jambo-img img{
@@ -197,15 +197,15 @@ nav {
 }
 
 .invoice {
+    margin-top: 1em;
     line-height: 3em;
     font-size: 1em;
-    margin-top: 1em;
 }
 
 .invoice input[type="radio"] {
-    appearance: none;
     width: 25px;
     height: 25px;
+    appearance: none;
     display: inline-block;
     border: 2px solid #999;
     border-radius: 50%;
@@ -266,13 +266,13 @@ nav {
 }
 
 .row {
+    margin-right: 15px;
+    margin-bottom: 1em;
     padding: 0 0;
     border: 1px solid #e6e6e7;
     text-align: center;
     min-height: 900px;
     width: calc(100% / 3 - 30px / 3);
-    margin-right: 15px;
-    margin-bottom: 1em;
 }
 
 .icon-singolo {
@@ -341,9 +341,9 @@ nav {
 }
 
 .line {
-    margin-top: 2em;
     width: 15%;
     height: 1px;
+    margin-top: 2em;
     border-bottom: 1px solid #6c7b8866;
 }
 
@@ -424,8 +424,8 @@ nav {
 }
 
 .title-professional-two {
-    font-size: 2em;
     margin-bottom: 1em;
+    font-size: 2em;
 }
 
 .partner-dropbox p {
@@ -451,13 +451,13 @@ nav {
 }
 
 .less-time {
-    margin-top: 2em;
     width: 100%;
+    margin-top: 2em;
 }
 
 .column-operation {
-    height: 600px;
     width: calc(100% / 3 - 30px / 3);
+    height: 600px;
     margin-right: 15px;
 }
 
@@ -491,12 +491,12 @@ nav {
 
 .logos {
     width: 100%;
+    height: 500px;
 }
 
 .logos-left {
     width: 30%;
     height: 500px;
-    
 }
 
 .logos-center {
@@ -506,11 +506,9 @@ nav {
     background: #f5f5f5;
 }
 
-
 .logos-right {
     width: 30%;
     height: 500px;
-    
 }
 
 .logo-top-left-left {
@@ -564,8 +562,8 @@ nav {
 }
 
 .logo-center .svg svg {
-    fill: white;
     width: 100%;
+    fill: white;
 }
 
 .designist-center {
@@ -606,8 +604,8 @@ nav {
 }
 
 .free-trial {
-    padding-top: 6.5em;
     width: 30%;
+    padding-top: 6.5em;
 }
 
 .free-trial-button {
@@ -706,9 +704,9 @@ footer {
 }
 
 .info-dropbox h5 {
+    margin-bottom: 1em;
     font-size: 1.3em;
     color: white;
-    margin-bottom: 1em;
 }
 
 .footer-info-right {
@@ -727,16 +725,16 @@ footer {
 }
 
 .italian {
-    margin-top: 3em;
     width: 90%;
+    margin-top: 3em;
 }
 .italian a {
+    margin-bottom: 2em;
+    padding: 3.5em 4em 2em 0;
     text-decoration: none;
     color: #999999;
     border-top: 1px solid white;
     font-size: 0.7em;
-    padding: 3.5em 4em 2em 0;
-    margin-bottom: 2em;
     display: inline-block;
 }
 /* /footer */
